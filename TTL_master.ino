@@ -67,7 +67,7 @@ void loop() {
    if(i>=0 && i<112) datamtc.z[0]=0;
    if(i>=112 && i<225) datamtc.z[0]=1;
    datamtc.z[1]=datamtc.z[0];   // we do not use another cooler   
-   Wire.beginTransmission(2);   // transmit to device #1: motor
+   Wire.beginTransmission(2);   // transmit to device #2: motor
    Wire.write(datamtc.b[0]);    // send one byte
    Wire.write(datamtc.b[1]);    // send one byte 
    Wire.write(datamtc.b[2]);    // send one byte 
