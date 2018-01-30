@@ -66,12 +66,3 @@ else {
   }
 }
 
-//void requestEvent() {
-//  datastm.f=rate;
-//  //when switch is 0 ,heater is on 
-//  //when switch is 1 ,heater is off
-//  Wire.write(datastm.b,4);  // send 2byte data to master
-//  Serial.print("datastm.f=");
-//  Serial.println(datastm.f);
-//}
-
