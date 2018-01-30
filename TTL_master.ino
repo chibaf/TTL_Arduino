@@ -90,7 +90,7 @@ void loop() {
    Serial.print(" ");
    Serial.print(datamtm.z[0]); //  PWM output for motor slave
    Serial.print(" ");
-   Serial.println(datamtc.z[0]); //  PWM output for motor slave
+   Serial.println(datamtc.z[0]); //  PWM output for cooler slave
    delay(200); 
    i=i+1;
    if(i>224) i=0;
